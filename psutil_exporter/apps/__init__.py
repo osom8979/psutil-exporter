@@ -5,9 +5,9 @@ from asyncio.exceptions import CancelledError
 from functools import lru_cache
 from typing import Callable, Dict
 
-from __PACKAGE_LOWER__.apps.master import master_main
-from __PACKAGE_LOWER__.arguments import CMD_MASTER
-from __PACKAGE_LOWER__.logging.logging import logger
+from psutil_exporter.apps.master import master_main
+from psutil_exporter.arguments import CMD_MASTER
+from psutil_exporter.logging.logging import logger
 
 
 @lru_cache

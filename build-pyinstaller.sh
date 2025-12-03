@@ -17,9 +17,9 @@ fi
 source "$ACTIVATE_PATH"
 
 cd "$ROOT_DIR" && pyinstaller \
-    --name "__PROJECT_NAME__" \
+    --name "psutil-exporter" \
     --onefile \
     --clean \
     --noconsole \
-    --add-data "__PACKAGE_LOWER__/assets:assets" \
+    --add-data "psutil_exporter/assets:assets" \
     "$ROOT_DIR/main.py"
