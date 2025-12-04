@@ -20,5 +20,3 @@ def master_main(args: Namespace) -> None:
     assert isinstance(args.debug, bool)
     assert isinstance(args.verbose, int)
     assert isinstance(args.D, bool)
-
-    print("Hello, World!")
